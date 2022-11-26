@@ -38,7 +38,7 @@ export function Header(){
                     <NavLink href='' onClick={handleIsOpen}>
                         Contato
                     </NavLink>
-                    <NavLink href='' onClick={handleIsOpen}>
+                    <NavLink target={'_blank'} href='https://www.instagram.com/studiofosterpelotas/' onClick={handleIsOpen}>
                         <AiOutlineInstagram size={32} />
                     </NavLink>
                 </NavContainer>
