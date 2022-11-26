@@ -26,7 +26,7 @@ export const Title = styled.h1`
         max-width: 600px;
     }
     @media screen and (min-width: 1280px){
-        font-size: 4rem;
+        font-size: 3rem;
         max-width: 900px;
         
     }
