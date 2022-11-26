@@ -11,7 +11,12 @@ export const ContainerContent = styled.div`
    padding: 2rem 2rem;
    display: flex;
    flex-direction: column;
+    justify-content: center;
 
+   @media screen and (min-width: 1280px){
+       height: 80vh;
+        
+    }
 
 
     
@@ -19,17 +24,20 @@ export const ContainerContent = styled.div`
 
 export const Title = styled.h1`
     color: #fff;
+    font-size: 2rem;
+    max-width: 450px;
 
-    @media screen and (max-width: 1260px){
-        
-        font-size: 3rem;
-        max-width: 600px;
-    }
-    @media screen and (min-width: 1280px){
-        font-size: 3rem;
-        max-width: 900px;
-        
-    }
+  @media screen and (min-width: 1200px) { 
+  
+        font-size: 2.5rem;
+        max-width: 700px;      
+   }
+
+@media screen and (min-width: 1300px) { 
+  
+    font-size: 3.5rem;
+    max-width: 900px;      
+}
 
     
 
